@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        /* background: linear-gradient(方向、顏色1、位置1、顏色2、位置2 ); */
+        .box-1{
+            background: linear-gradient(red, blue );
+        }
+        /* to bottom為預設 */
+        .box-2{
+            background: linear-gradient(to right, rgb(247, 255, 18), rgb(213, 36, 36) );
+        }
+        .box-3{
+            background: linear-gradient(to top, orange, rgb(250, 250, 255) );
+        }
+        .box-4{
+            background: linear-gradient(90deg, orange, rgb(250, 250, 255) );
+        }
+        .box-5{
+            background: linear-gradient(135deg, orange, rgb(250, 250, 255) );
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box-1"></div>
+    <div class="box box-2"></div>
+    <div class="box box-3"></div>
+    <div class="box box-4"></div>
+    <div class="box box-5"></div>
+    <div class="box box-6"></div>
+    <div class="box box-7"></div>
+</body>
+</html>

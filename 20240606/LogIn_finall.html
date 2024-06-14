@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .left {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(82, 48, 78);
+            background-image: url(./img訂餐/修背景.jpg);
+            background-size: cover;
+            background-blend-mode: multiply;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .left-icons {
+            width: 50px;
+            margin: auto;
+        }
+
+        .left-text {
+            position: absolute;
+            left: 50%;
+            top: 52%;
+            transform: translate(-50%, -50%);
+        }
+
+        .left-icons {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%, 0);
+            width: 5rem !important;
+        }
+
+        .right {
+            background-image: url(./img訂餐/背景.webp);
+            background-size: cover;
+        }
+
+        .use-email-word {
+            font-size: 14px;
+        }
+
+        .forget {
+            font-size: 14px;
+            color: rgb(0, 26, 255);
+        }
+
+        .forget-2 {
+            font-size: 14px;
+            color: rgb(42, 132, 211);
+        }
+
+        .login {
+            background-color: blueviolet;
+
+        }
+
+        .tital {
+            color: aliceblue;
+        }
+
+        .small-tital {
+            color: aliceblue;
+            font-size: 13px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-full vh-100 bg-secondary">
+        <div class="row h-100 mx-0">
+            <div class="left col-0 col-lg-6  m-0 d-flex justify-content-center flex-column">
+                <div class="left-text text-center d-none d-lg-block">
+                    <h2>POWERPUFF GIRLS</h2>
+                    <p class="small-tital mb-0">🌈 Let's save The City of Townsville 🌈</p>
+                </div>
+                <div class="left-icons mb-3">
+                    <i class="fa-brands fa-facebook-f text-light"></i>
+                    <i class="fa-brands fa-x-twitter text-light"></i>
+                    <i class="fa-brands fa-instagram text-light"></i>
+                </div>
+
+
+                <div class="rwd d-lg-none m-auto">
+                    <div class="logo ms-5">
+                        <img src="./img訂餐/飛天logo.webp" width="150" height="70" alt="">
+                    </div>
+                    <div class="row mt-3 ms-5">
+                        <i class="icon col-3 fa-brands fa-twitch fs-5"></i>
+                        <i class="icon col-3 fa-brands fa-twitter fs-5"></i>
+                        <i class="col-3 fa-brands fa-google fs-6"></i>
+                    </div>
+                    <p class="use-email-word mt-3">➔ or use email login your account</p>
+                    <form class="col-12  needs-validation" novalidate>
+                        <div class="email mb-3">
+                            <input type="text" class="form-control mb-2" id="validationCustom03" required
+                                placeholder="Email">
+                            <div class="invalid-feedback">
+                                *Please enter a valid email address (ex. Powerpuff.gmail.com)
+                            </div>
+                        </div>
+                        <div class="password mb-3">
+                            <input type="password" class="form-control mb-2" id="validationCustom03" required
+                                placeholder="Password">
+                            <div class="invalid-feedback">
+                                *Please enter your password
+                            </div>
+                        </div>
+                        <a href="">
+                            <p class="forget-2 text-end">Forgot your password?</p>
+                        </a>
+                        <div class="button ms-2">
+                            <button class="login btn btn-danger col-11 rounded-pill btn-lg ps-5 pe-5"
+                                type="submit">SIGN IN</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+            </div>
+            <div
+                class="right col-12 col-lg-6 h-100 d-none d-lg-flex justify-content-center align-items-center flex-column">
+                <div class="logo">
+                    <img src="./img訂餐/飛天logo.webp" width="150" height="70" alt="">
+                </div>
+                <div class="row mt-3 ms-2">
+                    <i class="icon col-3 fa-brands fa-twitch fs-5"></i>
+                    <i class="icon col-3 fa-brands fa-twitter fs-5"></i>
+                    <i class="col-3 fa-brands fa-google fs-6"></i>
+                </div>
+                <p class="use-email-word mt-3">➔ or use email to login your account</p>
+                <form class="col-9 needs-validation" novalidate>
+                    <div class="email mb-3">
+                        <input type="text" class="form-control mb-2" id="validationCustom03" required
+                            placeholder="Email">
+                        <div class="invalid-feedback">
+                            *Please enter a valid email address (ex. Powerpuff.gmail.com)
+                        </div>
+                    </div>
+                    <div class="password mb-3">
+                        <input type="password" class="form-control mb-2" id="validationCustom03" required
+                            placeholder="Password">
+                        <div class="invalid-feedback">
+                            *Please enter your password
+                        </div>
+                    </div>
+                    <a href="">
+                        <p class="forget text-end pt-2">Forgot your password?</p>
+                    </a>
+                    <div class="button ms-5">
+                        <button class="login btn btn-dark col-11 rounded-pill btn-lg ps-5 pe-5" type="submit">SIGN
+                            IN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+</body>
+
+</html>
